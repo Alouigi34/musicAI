@@ -22,5 +22,5 @@ The input format is based on the AI models. These are time-series based models t
 Additional functions:
 read_from_mic_and_extract_notes_real_time_and_draw_on_keyboard.py. This function transform the input microphone reading to notes. It uses an FFT based identification process. It works well when 2 or 3 frequencies are presented. Problems occur with more frequencies. This function is provided as an illustration of how a microphone could read the current performers' choices. Improvements are required and an assistant could be used instead.
 
-
+![alt text](https://github.com/Alouigi34/musicAI/blob/main/example.png)
 
