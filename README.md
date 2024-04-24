@@ -11,6 +11,6 @@ Step 1: Provide a reference .mid fille.
 
 Step 2: Train the AI models using the provided function train_from_midi_song_and_create_models.py. This function currently supports the creation of 3 AI models that are saved as kerras models as well as tflite models. The conversion is necessary for using the models in real time afterwards.
 
-Step 3:
+Step 3: Run use_trained_models_to_make_suggestions.py function. This function provides suggestions to a performer in real time based on her/his choices. The suggestions of the 3 AI models are presented as notes in 3 vertically positioned keyboards. This GUI provide note suggestions as well as dynamic suggestions. 
 
 
