@@ -13,4 +13,8 @@ Step 2: Train the AI models using the provided function train_from_midi_song_and
 
 Step 3: Run use_trained_models_to_make_suggestions.py function. This function provides suggestions to a performer in real time based on her/his choices. The suggestions of the 3 AI models are presented as notes in 3 vertically positioned keyboards. This GUI provide note suggestions as well as dynamic suggestions. 
 
+Information: The use_trained_models_to_make_suggestions.py function makes suggestions based on the user input. This input provides information about the notes the performer played in a time frame. The suggestions are based on this information. The input can be provided by hand, created randomly, or by a microphone that reads the performers choices. Differently, an assistant to the current performer can observe the notes played, insert the selections inside the program , which will then generate the proposal. This process continues indefinitely. 
+
+The input format is based on the AI models. THese are time-series based models that expect a predefined number of timestamped information.
+
 
