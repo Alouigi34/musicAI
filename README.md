@@ -4,7 +4,7 @@ This repository provides some functions for real time computed assisted composit
 AI models are trained based on a reference_piece.mid.
 This piece acts as the assistant composer for the actual performance.
 
-train_test_on_piece_whole_process.py provides a conceptual overview: There AI models are trained based on the piece. Later on they are used to make predictions based on the user input.
+train_test_on_piece_whole_process.py provides a conceptual overview: Three AI models are trained based on the piece. Later on they are used to make predictions based on the user input.
 
 # The software is aimed to be used as bellow:
 Step 1: Provide a reference .mid fille.
